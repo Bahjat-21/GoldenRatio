@@ -4,30 +4,9 @@ Golden Ratio Approximation
 This project demonstrates how to approximate the Golden Ratio (φ ≈ 1.6180339887...) using continued fractions in Java.
 The program takes an integer n as input and recursively computes:
 
-𝑔
-(
-𝑛
-)
-=
-1
-+
-1
-𝑔
-(
-𝑛
-−
-1
-)
-,
-𝑔
-(
-0
-)
-=
-1
-g(n)=1+
-g(n−1)
-1
+$$
+g(n) = 1 + \frac{1}{g(n-1)}, \quad g(0) = 1
+$$
 	​
 ## How It Works
 
